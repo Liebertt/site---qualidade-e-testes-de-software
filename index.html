@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sneaker Store | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header>
-        <nav class="container">
-            <div class="logo">SNEAKER<strong>HEAD</strong></div>
+        <nav>
+            <div class="logo">SNEAKER<span>HEAD</span></div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="produtos.html">Produtos</a></li>
@@ -19,14 +21,108 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>O Futuro nos seus Pés</h1>
-            <p>Descubra a coleção 2026 de sneakers exclusivos.</p>
-            <a href="produtos.html" class="btn-primary">Ver Coleção</a>
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/jordan-slide.png');">
+                <div class="hero-content">
+                    <h1>Air Jordan Retro</h1>
+                    <p>O clássico que nunca sai de moda.</p>
+                    <a href="produtos.html" class="btn-primary">Comprar Agora</a>
+                </div>
+            </div>
+            
+            <div class="swiper-slide hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/performance-slide.png');">
+                <div class="hero-content">
+                    <h1>Performance Premium</h1>
+                    <p>Tecnologia de ponta para sua corrida.</p>
+                    <a href="produtos.html" class="btn-primary">Explorar</a>
+                </div>
+            </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </section>
 
+    <section class="container products-section">
+        <h2 class="section-title">Produtos em Destaque</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="tag">Novo</span>
+                    <img src="assets/AirMaxv3.png" alt="Tênis">
+                </div>
+                <div class="product-info">
+                    <h3>Nike Air Max v3</h3>
+                    <p class="category">Running</p>
+                    <p class="price">R$ 599,90</p>
+                    <button class="btn-buy">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="assets/AdidasForumLow.png" alt="Tênis">
+                </div>
+                <div class="product-info">
+                    <h3>Adidas Forum Low</h3>
+                    <p class="category">Casual</p>
+                    <p class="price">R$ 499,90</p>
+                    <button class="btn-buy">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="tag">Oferta</span>
+                    <img src="assets/newb.png" alt="Tênis">
+                </div>
+                <div class="product-info">
+                    <h3>New Balance 550</h3>
+                    <p class="category">Streetwear</p>
+                    <p class="price">R$ 799,90</p>
+                    <button class="btn-buy">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">SNEAKER<span>HEAD</span></div>
+                <p>A maior loja de sneakers exclusivos do Brasil.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Siga-nos</h4>
+                <div class="social-icons">
+                    <span>Instagram</span>
+                    <span>Facebook</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SneakerHead - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+            autoplay: { delay: 5000 },
+        });
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>
