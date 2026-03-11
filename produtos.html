@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Store | Produtos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .product-image img { height: 250px; object-fit: cover; width: 100%; }
+        .category { font-size: 0.8rem; color: #777; margin-bottom: 5px; }
+        main { padding-top: 120px; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SNEAKER<span>HEAD</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html" class="active">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container products-section">
+        <h2 class="section-title">Nossa Coleção</h2>
+        <div class="product-grid">
+            <!-- Card de Exemplo (Repita para os 9 produtos) -->
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="tag">Novo</span>
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070" alt="Nike Air Max">
+                </div>
+                <div class="product-info">
+                    <h3>Nike Air Max 270</h3>
+                    <p class="category">Running / Lifestyle</p>
+                    <p class="price">R$ 899,90</p>
+                    <button class="btn-buy">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <!-- Adicione mais cards aqui seguindo o mesmo padrão -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">SNEAKER<span>HEAD</span></div>
+                <p>A maior loja de sneakers exclusivos do Brasil.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
