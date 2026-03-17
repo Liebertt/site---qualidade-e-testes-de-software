@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Store | Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        main{
+            padding-top:120px;
+        }
+
+        .contact-section{
+            margin-top:40px;
+        }
+
+        .contact-grid{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:40px;
+            margin-top:40px;
+        }
+
+        .contact-info p{
+            margin-bottom:15px;
+            line-height:1.6;
+        }
+
+        .contact-form{
+            display:flex;
+            flex-direction:column;
+            gap:15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea{
+            padding:12px;
+            border:1px solid #ddd;
+            border-radius:6px;
+            font-size:14px;
+        }
+
+        .contact-form textarea{
+            resize:none;
+            height:120px;
+        }
+
+        .btn-send{
+            padding:12px;
+            background:#000;
+            color:#fff;
+            border:none;
+            border-radius:6px;
+            cursor:pointer;
+        }
+
+        .btn-send:hover{
+            opacity:0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">SNEAKER<span>HEAD</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+<h2 class="section-title">Entre em Contato</h2>
+
+<section class="contact-section">
+
+<div class="contact-grid">
+
+<div class="contact-info">
+
+<h3>Fale Conosco</h3>
+
+<p>
+Tem alguma dúvida sobre nossos produtos ou pedidos?
+Nossa equipe está pronta para ajudar você.
+</p>
+
+<p><strong>Email:</strong> contato@sneakerhead.com</p>
+<p><strong>Telefone:</strong> (11) 99999-9999</p>
+<p><strong>Endereço:</strong> São Paulo - SP, Brasil</p>
+
+<p>
+Atendemos de segunda a sexta das 9h às 18h.
+</p>
+
+</div>
+
+<div>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Seu nome" required>
+
+<input type="email" placeholder="Seu email" required>
+
+<input type="text" placeholder="Assunto">
+
+<textarea placeholder="Digite sua mensagem"></textarea>
+
+<button type="submit" class="btn-send">Enviar Mensagem</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container footer-content">
+
+<div class="footer-brand">
+<div class="logo">SNEAKER<span>HEAD</span></div>
+<p>A maior loja de sneakers exclusivos do Brasil.</p>
+</div>
+
+<div class="footer-links">
+<h4>Navegação</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="produtos.html">Produtos</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
+</div>
+
+<div class="footer-social">
+<h4>Siga-nos</h4>
+<div class="social-icons">
+<span>Instagram</span>
+<span>Facebook</span>
+</div>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>&copy; 2026 SneakerHead - Todos os direitos reservados.</p>
+</div>
+
+</footer>
+
+</body>
+</html>
