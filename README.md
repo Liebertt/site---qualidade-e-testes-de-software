@@ -81,31 +81,36 @@ Finalização e entrega conforme os requisitos da imagem.
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 <table>
-  <tr>
-    <td align="center">
-      <a href="#" title="defina o título do link" style="text-decoration: none; color: inherit;">
-        <img src="https://avatars.githubusercontent.com/u/105327109?v=4" width="100px;" alt="Lieberte "/><br>
+  <tr> 
+    
+    
+   <td align="center">
+  <a href="#" title="defina o título do link">
+    <img src="https://avatars.githubusercontent.com/u/105327109?v=4" width="100px;" alt="Lieberte"/><br>
+  </a>
+  <sub>
+    <b>Lieberte</b>
+  </sub>
+</td>
+<td align="center" >
+      <a href="#" title="defina o título do link" >
+        <img src="https://avatars.githubusercontent.com/u/141886542?v=4" width="100px;" alt="Thiago"/><br>
+         </a>
         <sub>
-          <b>Lieberte</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center" >
-      <a href="#" title="defina o título do link" style="text-decoration: none; color: inherit;">
-        <img src="https://avatars.githubusercontent.com/u/141886542?v=4" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub style="text-decoration: none; ">
           <b>Thiago</b>
         </sub>
-      </a>
-    </td>
+    
+   </td>
     <td align="center">
-      <a href="#" title="defina o título do link" style="text-decoration: none; color: inherit;" >
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+      <a href="#" title="defina o título do link">
+        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Cristiano"/><br>
+       </a>
         <sub>
           <b>Cristiano</b>
         </sub>
-      </a>
-    </td>
+      
+   </td>
+
     
   </tr>
 </table>
