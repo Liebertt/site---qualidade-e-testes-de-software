@@ -1,4 +1,13 @@
-# Planejamento do Projeto: Site Estático
+# Planejamento do Projeto: Site - Loja de Tênis - Sneaker Store
+
+## 🚀 Tecnologias Utilizadas
+Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias fundamentais da web:
+
+* HTML5: Estruturação semântica do conteúdo.
+
+* CSS3: Estilização, layout e responsividade.
+
+* JavaScript: Comportamentos dinâmicos e interatividade.
 
 ## 📋 Fase 1: Definições Gerais e Setup
 
