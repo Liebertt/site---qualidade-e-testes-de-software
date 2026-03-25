@@ -6,12 +6,16 @@ O site oficial da nossa Sneaker Store já está no ar : [Clique aqui para acessa
 
 ## 🚀 Tecnologias Utilizadas
 Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias fundamentais da web:
-
-* HTML5: Estruturação semântica do conteúdo.
-
-* CSS3: Estilização, layout e responsividade.
-
-* JavaScript: Comportamentos dinâmicos e interatividade.
+ 
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) : Estruturação semântica do conteúdo.
+  
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) : Estilização, layout e responsividade.
+  
+* ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) : JavaScript: Comportamentos dinâmicos e interatividade.
+  
+* ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) : versionamento.
+ 
+* ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) : hospedagem do repositório.
 
 ## 📋 Fase 1: Definições Gerais e Setup
 
