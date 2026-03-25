@@ -67,6 +67,36 @@ nav {
     color: var(--primary);
 }
 
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle .bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: var(--transition);
+}
+
+/* Hamburger animation classes */
+.menu-toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
 /* Hero Section com Impacto */
 .hero {
     height: 100vh;
@@ -176,5 +206,44 @@ footer { background: var(--dark); color: white; padding: 60px 0 20px; margin-top
 .footer-bottom { text-align: center; padding-top: 20px; color: #666; font-size: 0.8rem; }
 
 /* Responsividade */
-@media (max-width: 992px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 600px) { .product-grid { grid-template-columns: 1fr; } .footer-content { grid-template-columns: 1fr; } }
+@media (max-width: 992px) { 
+    .product-grid { grid-template-columns: repeat(2, 1fr); } 
+}
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+    .nav-links {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        width: 70%;
+        background-color: rgba(18, 18, 18, 0.98);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s ease-in-out;
+        z-index: 1000;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+    }
+    .nav-links.active {
+        right: 0;
+    }
+    .nav-links li {
+        margin: 20px 0;
+    }
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+    
+    .hero-content h1 { font-size: 2.5rem; }
+    .hero-content p { font-size: 1rem; }
+}
+
+@media (max-width: 600px) { 
+    .product-grid { grid-template-columns: 1fr; } 
+    .footer-content { grid-template-columns: 1fr; } 
+    .nav-links { width: 100%; }
+}
