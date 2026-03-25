@@ -103,7 +103,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     
    <td align="center">
   <a href="#" title="defina o título do link">
-    <img src="https://avatars.githubusercontent.com/u/105327109?v=4" width="100px;" alt="Lieberte"/><br>
+    <img src="https://avatars.githubusercontent.com/u/105327109?v=4&size=64" width="100px;" alt="Lieberte"/><br>
   </a>
   <sub>
     <b>Lieberte</b>
