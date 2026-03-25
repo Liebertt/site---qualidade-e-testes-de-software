@@ -4,7 +4,7 @@
 
 Nesta etapa, o grupo define a identidade visual para que as páginas não fiquem desproporcionais entre si.
 
-* **Definição do Tema**: Ex: Loja de periféricos de informática.
+* **Definição do Tema**: Ex: Loja de Tênis.
 
 * **Guia de Estilo**:
 
