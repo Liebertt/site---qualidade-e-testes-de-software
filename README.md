@@ -1,5 +1,9 @@
 # Planejamento do Projeto: Site - Loja de Tênis - Sneaker Store
 
+## Link do site:
+O site oficial da nossa Sneaker Store já está no ar : [Clique aqui para acessar](https://liebertt.github.io/site---qualidade-e-testes-de-software/)
+
+
 ## 🚀 Tecnologias Utilizadas
 Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias fundamentais da web:
 
